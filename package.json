@@ -20,7 +20,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-     "preinstall": "npx npm-force-resolutions"
+    "preinstall": "npx npm-force-resolutions"
   },
   "eslintConfig": {
     "extends": [
@@ -41,9 +41,8 @@
     ]
   },
   "devDependencies": {
-    "ajv": "^7.2.4",
+    "ajv": "^8.17.1",
     "npm-force-resolutions": "^0.0.10",
     "source-map-loader": "^5.0.0"
   }
-  
 }

@@ -18,7 +18,7 @@ function Header() {
             ☰
           </button>
           <a className="navbar-brand mx-auto" href="#">
-            <img src={logo} alt="Company logo" />
+            <img src={logo} alt="Company logo" /> alt=" "
           </a>
 
           <div className="navbar-collapse collapse">
@@ -60,12 +60,12 @@ function Header() {
               </li>
               <li className="nav-item">
                 <a className="nav-link js-scroll-trigger" href="/search/">
-                  <img src={search} alt="Search icon" />
+                  <img src={search} alt="Search icon" /> alt=" "
                 </a>
               </li>
               <li className="nav-item">
                 <a className="nav-link js-scroll-trigger" href="/cart/">
-                  <img src={cart} alt="Cart icon" />
+                  <img src={cart} alt="Cart icon" /> alt=" "
                 </a>
               </li>
             </ul>

@@ -39,7 +39,7 @@ class Youtube extends Component {
                   <div className="singleVideoWrapper">
                     <div className="videoThumbnail">
                       <a href={videoLink} target="_blank">
-                        <img src={singleVideo.snippet.thumbnails.high.url} />
+                        <img src={singleVideo.snippet.thumbnails.high.url} alt=" "/>
                       </a>
                     </div>
                     <div className="videoInfoWrapper">
